@@ -1,0 +1,99 @@
+@import 'utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    --webkit-font-smotthing:antialiased;
+
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 88%,0 100%);
+    
+}
+.container{
+    max-width:1152px;
+    padding: 0 15px;
+    margin:0 auto;
+
+}
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color:var(--primary);
+
+}
+
+header nav{
+    padding: 2rem 0;
+}
+header nav .brand{
+    margin-right: 3rem;
+}
+.hero .left img{
+    width: 400px;
+    
+}
+.hero .right {
+    
+    color: var(--pure)
+}
+.hero .right h6{
+    font-size: 2rem;
+    color: #3DCFD3;
+    margin-left: -0.5rem;
+ 
+}
+
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 10;
+    line-height: 1;
+    margin-top: 1.2rem;
+    margin-left: -1.3rem;
+           
+}
+section{
+    padding: 6rem 0;
+}
+
+section.about .about-my-img{
+    height:200px;
+    padding-right: 5rem;
+}
+
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 350;
+    
+}
+
+.insta-icon{
+    margin-top: 1rem;
+    height:25px;
+}
+.tweet-icon{
+    margin-top: 1rem;
+    height:25px;
+}
+.facebook-icon{
+    margin-top: 1rem;
+    height:25px;
+}
